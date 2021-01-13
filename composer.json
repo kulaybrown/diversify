@@ -1,0 +1,27 @@
+{
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "installer-paths": {
+            "wordpress/wp-content/plugins/{$name}/": [
+                "type:wordpress-plugin"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/junaidbhura/composer-wp-pro-plugins"
+        }
+    ],
+    "require": {
+        "advanced-custom-fields/advanced-custom-fields": "*",
+        "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "^2.6",
+        "wpackagist-plugin/classic-editor": "^1.5"
+    }
+}
