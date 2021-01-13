@@ -129,26 +129,6 @@
         ]
     },
     {
-        "name": "wpackagist-plugin/acf-content-analysis-for-yoast-seo",
-        "version": "2.7",
-        "version_normalized": "2.7.0.0",
-        "source": {
-            "type": "svn",
-            "url": "https://plugins.svn.wordpress.org/acf-content-analysis-for-yoast-seo/",
-            "reference": "tags/2.7"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://downloads.wordpress.org/plugin/acf-content-analysis-for-yoast-seo.2.7.zip"
-        },
-        "require": {
-            "composer/installers": "~1.0"
-        },
-        "type": "wordpress-plugin",
-        "installation-source": "dist",
-        "homepage": "https://wordpress.org/plugins/acf-content-analysis-for-yoast-seo/"
-    },
-    {
         "name": "wpackagist-plugin/advanced-custom-fields",
         "version": "5.9.3",
         "version_normalized": "5.9.3.0",
@@ -169,6 +149,26 @@
         "homepage": "https://wordpress.org/plugins/advanced-custom-fields/"
     },
     {
+        "name": "wpackagist-plugin/akismet",
+        "version": "4.1.8",
+        "version_normalized": "4.1.8.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/akismet/",
+            "reference": "tags/4.1.8"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/akismet.4.1.8.zip"
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/akismet/"
+    },
+    {
         "name": "wpackagist-plugin/classic-editor",
         "version": "1.6",
         "version_normalized": "1.6.0.0",
@@ -187,5 +187,45 @@
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "homepage": "https://wordpress.org/plugins/classic-editor/"
+    },
+    {
+        "name": "wpackagist-plugin/ewww-image-optimizer",
+        "version": "5.8.2",
+        "version_normalized": "5.8.2.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/ewww-image-optimizer/",
+            "reference": "tags/5.8.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/ewww-image-optimizer.5.8.2.zip"
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/ewww-image-optimizer/"
+    },
+    {
+        "name": "wpackagist-plugin/redirection",
+        "version": "4.9.2",
+        "version_normalized": "4.9.2.0",
+        "source": {
+            "type": "svn",
+            "url": "https://plugins.svn.wordpress.org/redirection/",
+            "reference": "tags/4.9.2"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://downloads.wordpress.org/plugin/redirection.4.9.2.zip"
+        },
+        "require": {
+            "composer/installers": "~1.0"
+        },
+        "type": "wordpress-plugin",
+        "installation-source": "dist",
+        "homepage": "https://wordpress.org/plugins/redirection/"
     }
 ]

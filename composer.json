@@ -21,7 +21,9 @@
     ],
     "require": {
         "wpackagist-plugin/advanced-custom-fields": "*",
-        "wpackagist-plugin/acf-content-analysis-for-yoast-seo": "^2.6",
-        "wpackagist-plugin/classic-editor": "^1.5"
+        "wpackagist-plugin/akismet": "^4.1",
+        "wpackagist-plugin/classic-editor": "^1.5",
+        "wpackagist-plugin/ewww-image-optimizer": "^5.6",
+        "wpackagist-plugin/redirection": "^4.8"
     }
 }
