@@ -45,7 +45,9 @@
   .fname,
   .organization,
   .phone {
-    margin-right: 30px;
+    @media (--viewport-medium) {
+      margin-right: 30px;
+    }
   }
 
   .fname,
@@ -54,7 +56,10 @@
   .phone,
   .industry,
   .country {
-    width: calc(50% - 45px);
+    width: 100%;
+    @media (--viewport-medium) {
+      width: calc(50% - 45px);
+    }
   }
 
   .email {
@@ -68,7 +73,11 @@
     padding: 20px;
 
     .request-callback-check-container {
-      padding: 50px;
+      padding: 20px 30px 20px 10px;
+
+      @media (--viewport-medium) {
+        padding: 50px;
+      }
     }
 
     input {
