@@ -1,0 +1,21 @@
+.section-bloglist {
+}
+
+.section-bloglist-container__inner {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.section-bloglist-item {
+  width: calc(calc(calc(100% / 12) * 3) - 80px);
+  padding: 40px;
+}
+
+.section-bloglist-item-img {
+  img {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+  }
+}

@@ -4,6 +4,7 @@
 
 	<?php
 		get_template_part('template-parts/sections/grid-solutions');
+		get_template_part('template-parts/sections/blog-list');
 	?>
 </main>
 <?php get_footer(); ?>
