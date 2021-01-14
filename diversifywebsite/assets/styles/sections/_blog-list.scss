@@ -12,7 +12,7 @@
   width: 100%;
 
   @media (--viewport-small) {
-    width: calc(calc(calc(100% / 12) * 3) - 80px);
+    width: calc(calc(calc(100% / 12) * 6) - 80px);
     padding: 40px;
   }
 

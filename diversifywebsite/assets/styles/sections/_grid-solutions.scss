@@ -30,6 +30,7 @@
   @media (--viewport-medium) {
     padding: 50px;
   }
+
   .grid-solutions__icon {
     height: 60px;
     display: flex;
@@ -47,6 +48,10 @@
   .heading-2,
   .body {
     text-align: center;
+  }
+
+  .heading-2 {
+    margin-bottom: 5px;
   }
 
   .body {
