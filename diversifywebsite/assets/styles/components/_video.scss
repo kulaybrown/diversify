@@ -17,7 +17,7 @@
   }
 
   .video__action-play-pause {
-    top: 40%;
+    top: 35%;
     cursor: pointer;
     left: 45%;
     position: absolute;
@@ -27,10 +27,19 @@
     opacity: 0;
     transition: opacity 500ms;
 
+    @media (--viewport-small) {
+      top: 40%;
+    }
+
     img {
       display: block;
-      height: 80px;
-      width: 80px;
+      height: 40px;
+      width: 40px;
+
+      @media (--viewport-medium) {
+        height: 80px;
+        width: 80px;
+      }
     }
   }
 
