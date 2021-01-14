@@ -1,0 +1,15 @@
+.section__inner {
+  @extend %maximum-width;
+}
+
+.section__inner--inset {
+  max-width: 100%;
+
+  @media (--viewport-medium) {
+    max-width: calc(calc(100% / 12) * 8);
+  }
+
+  @media (min-width: 1500px) {
+    max-width: calc(calc(100% / 12) * 6);
+  }
+}

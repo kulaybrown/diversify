@@ -1,0 +1,11 @@
+$breakpoint-small: 480px; // phablet
+$breakpoint-medium: 720px; // tablet
+$breakpoint-large: 1280px; // laptop
+$breakpoint-extra-large: 1440px; // desktop
+$breakpoint-maximum: $maximum-width; // maximum
+
+@custom-media --viewport-small (width >= #{$breakpoint-small});
+@custom-media --viewport-medium (width >= #{$breakpoint-medium});
+@custom-media --viewport-large (width >= #{$breakpoint-large});
+@custom-media --viewport-extra-large (width >= #{$breakpoint-extra-large});
+@custom-media --viewport-maximum (width >= #{$breakpoint-maximum});

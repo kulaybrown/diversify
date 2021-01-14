@@ -1,0 +1,10 @@
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  background-color: $color-background;
+  color: $color-foreground;
+  font-family: $font-family-base;
+}

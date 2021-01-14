@@ -3,7 +3,6 @@
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>" />
 		<meta content="width=device-width,initial-scale=1,viewport-fit=cover" name="viewport" />
-		<?php gravity_form_enqueue_scripts(2, true); ?>
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>

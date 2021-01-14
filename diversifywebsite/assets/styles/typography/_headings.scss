@@ -1,0 +1,33 @@
+.heading-1 {
+  font-family: $font-family-heading;
+  font-size: 48px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 200;
+  letter-spacing: 0.54px;
+  line-height: 38px;
+  text-transform: uppercase;
+
+  @media (--viewport-large) {
+    font-size: 94px;
+    letter-spacing: 1.06px;
+    line-height: 82px;
+  }
+}
+
+.heading-2 {
+  font-family: $font-family-heading;
+  font-size: 40px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 200;
+  letter-spacing: 0.45px;
+  line-height: 42px;
+  text-transform: uppercase;
+
+  @media (--viewport-large) {
+    font-size: 72px;
+    letter-spacing: 0.82px;
+    line-height: 70px;
+  }
+}
