@@ -4,11 +4,19 @@
 
 .section-textandimage-container {
   display: flex;
+  flex-direction: column;
+
+  @media (--viewport-large) {
+    flex-direction: row;
+  }
 }
 
 .section-textandimage-left,
 .section-textandimage-right {
-  width: 50%;
+  width: 100%;
+  @media (--viewport-large) {
+    width: 50%;
+  }
 }
 
 .section-textandimage-left {
@@ -33,17 +41,28 @@
   background: $color-purple;
   color: $color-white;
   text-align: center;
-  height: calc(50% - 100px);
-  padding: 50px;
+  height: calc(50% - 40px);
+  padding: 20px;
   display: flex;
   align-items: center;
+
+  @media (--viewport-large) {
+    height: calc(50% - 100px);
+    padding: 50px;
+  }
+
   .heading-2 {
     margin-top: 0px;
   }
 }
 
 .section-textandimage-right-video {
-  height: 50%;
+  padding-bottom: 50%;
+
+  @media (--viewport-large) {
+    height: 50%;
+    padding-bottom: initial;
+  }
 
   video {
     height: 100%;

@@ -17,11 +17,19 @@
 
 .grid-solutions__icons-grid-container-inner {
   display: flex;
+  flex-direction: column;
+
+  @media (--viewport-medium) {
+    flex-direction: row;
+  }
 }
 
 .grid-solutions__icons-grid-item {
-  padding: 50px;
+  padding: 25px 50px;
 
+  @media (--viewport-medium) {
+    padding: 50px;
+  }
   .grid-solutions__icon {
     height: 60px;
     display: flex;

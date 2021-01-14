@@ -9,8 +9,12 @@
 }
 
 .section-bloglist-item {
-  width: calc(calc(calc(100% / 12) * 3) - 80px);
-  padding: 40px;
+  width: calc(calc(calc(100% / 12) * 6) - 40px);
+  padding: 20px;
+  @media (--viewport-medium) {
+    width: calc(calc(calc(100% / 12) * 3) - 80px);
+    padding: 40px;
+  }
 }
 
 .section-bloglist-item-img {

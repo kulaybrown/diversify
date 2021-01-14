@@ -1,9 +1,20 @@
 .heading-1 {
   font-family: $font-family-heading;
-  font-size: 72px;
+  font-size: 32px;
+
+  @media (--viewport-medium) {
+    font-size: 52px;
+  }
+
+  @media (--viewport-large) {
+    font-size: 72px;
+  }
 }
 
 .heading-2 {
-  font-size: 24px;
+  font-size: 18px;
   font-family: $font-family-gotham-bold;
+  @media (--viewport-medium) {
+    font-size: 24px;
+  }
 }

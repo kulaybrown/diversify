@@ -9,7 +9,24 @@
 .slider-image-controls-buttons {
   border: 0px;
   cursor: pointer;
-  padding: 10px 20px;
+  padding: 10px 10px;
+
+  @media (--viewport-medium) {
+    padding: 10px 15px;
+  }
+  @media (--viewport-large) {
+    padding: 10px 20px;
+  }
+
+  img {
+    width: 10px;
+    @media (--viewport-medium) {
+      width: 15px;
+    }
+    @media (--viewport-large) {
+      width: auto;
+    }
+  }
 }
 
 .slider-image-controls__previous-button {

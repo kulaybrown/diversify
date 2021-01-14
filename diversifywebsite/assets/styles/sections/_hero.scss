@@ -48,8 +48,12 @@
 .slider-image-controls {
   position: absolute;
   right: 0;
-  top: 45%;
+  top: 40%;
   display: flex;
+
+  @media (--viewport-medium) {
+    top: 45%;
+  }
 }
 
 .slider-text-item {
@@ -57,11 +61,16 @@
   display: none;
 
   .heading-1 {
-    padding-right: 100px;
-    padding-left: 100px;
-    max-width: 500px;
-    margin: auto;
     line-height: 1;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    @media (--viewport-large) {
+      padding-right: 100px;
+      padding-left: 100px;
+      max-width: 500px;
+      margin: auto;
+    }
   }
 
   &:first-child {
