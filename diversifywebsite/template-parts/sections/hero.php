@@ -2,8 +2,8 @@
     <div class="section-hero__inner">
         <div class="section-hero__slider">
             <div class="slider slider-text">
-                <div class="slider-text-item"><h1 class="heading-1">So you're considering offshoring.</h1></div>
-                <div class="slider-text-item"><h1 class="heading-1">So you're considering offshoring2.</h1></div>
+                <div class="slider-text-item"><h1 class="heading-1">So you're considering offshoring 1.</h1></div>
+                <div class="slider-text-item"><h1 class="heading-1">So you're considering offshoring 2.</h1></div>
                 <div class="slider-text-item"><h1 class="heading-1">So you're considering offshoring 3.</h1></div>
             </div>
             <div class="slider slider-image">
