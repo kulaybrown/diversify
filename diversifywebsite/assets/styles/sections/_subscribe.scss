@@ -1,0 +1,89 @@
+.section-subscribe {
+  margin-bottom: 100px;
+}
+
+.section-subscribe__inner {
+  margin: auto;
+}
+
+.howmany-source {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+
+  input[type="number"] {
+    border: 3px solid $color-purple;
+    background: $color-white;
+    padding: 15px;
+    font-size: 22px;
+    font-family: $font-family-gotham-book;
+    color: $color-purple;
+    margin-bottom: 0px;
+    width: 50px;
+  }
+}
+
+.section-subscribe-container {
+  .heading-2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  form {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+    input {
+      margin-bottom: 30px;
+    }
+  }
+
+  .fname,
+  .organization,
+  .phone {
+    margin-right: 30px;
+  }
+
+  .fname,
+  .lname,
+  .organization,
+  .phone,
+  .industry,
+  .country {
+    width: calc(50% - 45px);
+  }
+
+  .email {
+    width: 100%;
+  }
+
+  .request-callback {
+    display: flex;
+    align-items: center;
+    background: $color-gray;
+    padding: 20px;
+
+    .request-callback-check-container {
+      padding: 50px;
+    }
+
+    input {
+      margin-bottom: 0px;
+    }
+
+    label {
+      .heading-2 {
+        text-align: left;
+        margin-bottom: 0px;
+      }
+    }
+  }
+
+  .submit-button {
+    margin-top: 30px;
+  }
+}

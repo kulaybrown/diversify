@@ -5,6 +5,7 @@
 	<?php
 		get_template_part('template-parts/sections/hero');
 		get_template_part('template-parts/sections/grid-solutions');
+		get_template_part('template-parts/sections/subscribe');
 		get_template_part('template-parts/sections/text-and-media');
 		get_template_part('template-parts/sections/blog-list');
 		get_template_part('template-parts/sections/testimonial');

@@ -6,10 +6,10 @@
   max-width: 100%;
 
   @media (--viewport-medium) {
-    max-width: calc(calc(100% / 12) * 8);
+    max-width: calc(calc(100% / 12) * 6);
   }
 
   @media (min-width: 1500px) {
-    max-width: calc(calc(100% / 12) * 6);
+    max-width: calc(calc(100% / 12) * 5);
   }
 }

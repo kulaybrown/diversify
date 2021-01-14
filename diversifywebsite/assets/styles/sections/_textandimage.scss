@@ -13,6 +13,7 @@
 
 .section-textandimage-left {
   position: relative;
+  line-height: 0;
 }
 
 .textandimage-img {
@@ -42,9 +43,21 @@
 }
 
 .section-textandimage-right-video {
+  height: 50%;
+
   video {
     height: 100%;
     width: 100%;
     display: block;
+    object-fit: cover;
+  }
+}
+
+.textandimage-slider {
+  > div {
+    display: none;
+    &:first-child {
+      display: block;
+    }
   }
 }

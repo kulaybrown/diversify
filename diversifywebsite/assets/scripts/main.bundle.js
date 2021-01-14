@@ -110,6 +110,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var slic
 
 /***/ }),
 
+/***/ "./diversifywebsite/assets/scripts/components/Video.js":
+/*!*************************************************************!*\
+  !*** ./diversifywebsite/assets/scripts/components/Video.js ***!
+  \*************************************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ \"./node_modules/jquery/dist/jquery.js\");\n/* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);\n\n\nclass Video {\n  constructor(element) {\n    this.$element = jquery__WEBPACK_IMPORTED_MODULE_0___default()(element);\n    this.$video = this.$element.find(\"video\");\n    this.$actionPauseVideo = this.$element.find(\".video__action-play-pause\");\n    this.addListeners();\n  }\n\n  addListeners() {\n    this.$actionPauseVideo.on(\"click\", this.toggleVideo.bind(this));\n  }\n\n  toggleVideo() {\n    if (this.$video[0].paused) {\n      this.$video[0].play();\n    } else {\n      this.$video[0].pause();\n    }\n\n    this.$actionPauseVideo.toggleClass(\"video__action-play-pause--pause\");\n  }\n\n}\n\njquery__WEBPACK_IMPORTED_MODULE_0___default()(\".section-textandimage-right-video\").each((index, element) => new Video(element));\n\n//# sourceURL=webpack:///./diversifywebsite/assets/scripts/components/Video.js?");
+
+/***/ }),
+
 /***/ "./diversifywebsite/assets/scripts/main.js":
 /*!*************************************************!*\
   !*** ./diversifywebsite/assets/scripts/main.js ***!
@@ -118,7 +130,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var slic
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Hero */ \"./diversifywebsite/assets/scripts/components/Hero.js\");\n/* harmony import */ var _components_TextandImageSlider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/TextandImageSlider */ \"./diversifywebsite/assets/scripts/components/TextandImageSlider.js\");\n\n\n\n//# sourceURL=webpack:///./diversifywebsite/assets/scripts/main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _components_Hero__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/Hero */ \"./diversifywebsite/assets/scripts/components/Hero.js\");\n/* harmony import */ var _components_TextandImageSlider__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/TextandImageSlider */ \"./diversifywebsite/assets/scripts/components/TextandImageSlider.js\");\n/* harmony import */ var _components_Video__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/Video */ \"./diversifywebsite/assets/scripts/components/Video.js\");\n\n\n\n\n//# sourceURL=webpack:///./diversifywebsite/assets/scripts/main.js?");
 
 /***/ }),
 

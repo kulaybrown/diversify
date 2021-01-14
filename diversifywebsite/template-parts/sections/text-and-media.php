@@ -27,12 +27,16 @@
                         </div>
                     </div>
                 </div>
-                <div class="section-textandimage-right-video">
-                <video width="320" height="240" autoplay>
-                    <source src="movie.mp4" type="video/mp4">
-                    <source src="movie.ogg" type="video/ogg">
-                    Your browser does not support the video tag.
-                </video>
+                <div class="section-textandimage-right-video video">
+                    <video width="320" height="240" autoplay loop muted playsinline>
+                        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    
+					<button class="video__action-play-pause" aria-label="Play Pause">
+						<img class="video__video-pause" src="<?php echo get_template_directory_uri(); ?>/assets/icons/pause.png" alt="Pause Icon">
+						<img class="video__video-play" src="<?php echo get_template_directory_uri(); ?>/assets/icons/play.png" alt="Play Icon">
+					</button>
                 </div>
             </div>
         </div>

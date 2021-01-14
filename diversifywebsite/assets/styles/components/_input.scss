@@ -1,0 +1,22 @@
+input {
+  color: $color-purple;
+  background: $color-gray;
+  border: 0px;
+  font-size: 24px;
+  font-family: $font-family-gotham-light;
+  padding: 15px;
+
+  &::-webkit-input-placeholder {
+    /* Edge */
+    color: $color-purple;
+  }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $color-purple;
+  }
+
+  &::placeholder {
+    color: $color-purple;
+  }
+}
