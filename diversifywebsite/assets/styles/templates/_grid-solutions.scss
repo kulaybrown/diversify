@@ -16,13 +16,14 @@
 }
 
 .grid-solutions__icons-grid-item {
-  padding: 50px 100px;
+  padding: 50px;
 
-  .site-header__logo {
+  .grid-solutions__icon {
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 
     img {
       max-width: 60px;

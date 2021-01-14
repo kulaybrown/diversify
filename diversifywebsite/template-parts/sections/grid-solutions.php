@@ -12,7 +12,7 @@
         <div class="grid-solutions__icons-grid-container">
             <div class="grid-solutions__icons-grid-container-inner section__inner">
                 <div class="grid-solutions__icons-grid-item">
-                    <div class="site-header__logo">
+                    <div class="grid-solutions__icon">
                         <img  src="<?php echo get_template_directory_uri(); ?>/assets/icons/efficiency.png" alt="">
                     </div>
                     <div class="eyebrow">Efficiency</div>
@@ -21,7 +21,7 @@
                     </div>
                 </div>
                 <div class="grid-solutions__icons-grid-item">
-                    <div class="site-header__logo">
+                    <div class="grid-solutions__icon">
                         <img  src="<?php echo get_template_directory_uri(); ?>/assets/icons/competition.png" alt="">
                     </div>
                     <div class="eyebrow">Your competition is doing it</div>
@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <div class="grid-solutions__icons-grid-item">
-                    <div class="site-header__logo">
+                    <div class="grid-solutions__icon">
                         <img  src="<?php echo get_template_directory_uri(); ?>/assets/icons/growth.png" alt="">
                     </div>
                     <div class="eyebrow">Growth</div>
