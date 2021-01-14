@@ -1,13 +1,11 @@
 <section class="section-grid-solutions">
     <div class="section-grid-solutions__inner">
         <div class="grid-solutions__header">
-            <div class="grid-solutions__header-body body section__inner--inset">
+            <div class="grid-solutions__header-body body section__inner--inset margins-horizontal">
                 <p>
                     You've come to the right place! Diversify Intelligent Staffing Solutions is a premium provider of high quality offshore staffing solutions. We help businesses implement the right offshore solution tailored to their unique business requirements. 
                 </p>
             </div>
-
-            
         </div>
         <div class="grid-solutions__icons-grid-container">
             <div class="grid-solutions__icons-grid-container-inner section__inner">
@@ -15,7 +13,7 @@
                     <div class="grid-solutions__icon">
                         <img  src="<?php echo get_template_directory_uri(); ?>/assets/icons/efficiency.png" alt="">
                     </div>
-                    <div class="eyebrow">Efficiency</div>
+                    <h2 class="heading-2">Efficiency</h2>
                     <div class="body">
                         <p>Free up important resources to work on high value work.</p>
                     </div>
@@ -24,7 +22,7 @@
                     <div class="grid-solutions__icon">
                         <img  src="<?php echo get_template_directory_uri(); ?>/assets/icons/competition.png" alt="">
                     </div>
-                    <div class="eyebrow">Your competition is doing it</div>
+                    <h2 class="heading-2">Your competition is doing it</h2>
                     <div class="body">
                         <p>Free up important resources to work on high value work.</p>
                     </div>
@@ -33,7 +31,7 @@
                     <div class="grid-solutions__icon">
                         <img  src="<?php echo get_template_directory_uri(); ?>/assets/icons/growth.png" alt="">
                     </div>
-                    <div class="eyebrow">Growth</div>
+                    <h2 class="heading-2">Growth</h2>
                     <div class="body">
                         <p>Free up important resources to work on high value work.</p>
                     </div>
