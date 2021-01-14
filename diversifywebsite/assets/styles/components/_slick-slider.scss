@@ -1,0 +1,21 @@
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slider-image-controls-buttons {
+  border: 0px;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.slider-image-controls__previous-button {
+  background: $color-green;
+}
+
+.slider-image-controls__next-button {
+  background: $color-white;
+}

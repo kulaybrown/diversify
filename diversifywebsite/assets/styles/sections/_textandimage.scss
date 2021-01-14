@@ -1,0 +1,50 @@
+.section-textandimage {
+  margin-bottom: 70px;
+}
+
+.section-textandimage-container {
+  display: flex;
+}
+
+.section-textandimage-left,
+.section-textandimage-right {
+  width: 50%;
+}
+
+.section-textandimage-left {
+  position: relative;
+}
+
+.textandimage-img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.textandimage-controls {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+}
+
+.section-textandimage-right-text {
+  background: $color-purple;
+  color: $color-white;
+  text-align: center;
+  height: calc(50% - 100px);
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  .heading-2 {
+    margin-top: 0px;
+  }
+}
+
+.section-textandimage-right-video {
+  video {
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+}

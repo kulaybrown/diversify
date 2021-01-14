@@ -7,6 +7,11 @@
                 </p>
             </div>
         </div>
+        <div class="grid-solutions__color-bar section__inner">
+            <div class="color-bar color-bar1"></div>
+            <div class="color-bar color-bar2"></div>
+            <div class="color-bar color-bar3"></div>
+        </div>
         <div class="grid-solutions__icons-grid-container">
             <div class="grid-solutions__icons-grid-container-inner section__inner">
                 <div class="grid-solutions__icons-grid-item">
