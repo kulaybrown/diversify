@@ -1,31 +1,4 @@
 .body {
-  font-family: $font-family-base;
-  font-size: 14px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 300;
-  letter-spacing: 0.4px;
-  line-height: 19px;
-
-  @media (--viewport-medium) {
-    font-size: 15px;
-    letter-spacing: 0.67px;
-    line-height: 27px;
-  }
-}
-
-.body--responsive {
-  font-family: $font-family-base;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 300;
-  letter-spacing: 0.4px;
-  line-height: 1.36;
-
-  @media (--viewport-medium) {
-    font-size: 18px;
-    font-weight: 300;
-    letter-spacing: 0.67px;
-    line-height: 1.5;
-  }
+  font-size: 24px;
+  font-family: $font-family-gotham-light;
 }

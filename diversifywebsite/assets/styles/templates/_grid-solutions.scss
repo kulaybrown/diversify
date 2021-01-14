@@ -1,0 +1,44 @@
+.grid-solutions__icons-grid-container {
+  background: $color-gray;
+}
+
+.grid-solutions__header {
+  margin-bottom: 60px;
+}
+
+.grid-solutions__header-body {
+  margin: auto;
+  text-align: center;
+}
+
+.grid-solutions__icons-grid-container-inner {
+  display: flex;
+}
+
+.grid-solutions__icons-grid-item {
+  padding: 50px 100px;
+
+  .site-header__logo {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      max-width: 60px;
+      width: 100%;
+      display: block;
+    }
+  }
+
+  .eyebrow,
+  .body {
+    text-align: center;
+  }
+
+  .body {
+    p {
+      margin-top: 0;
+    }
+  }
+}
